@@ -5,22 +5,27 @@
 }
 
 header {
-	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://ihda1.github.io/Helloworldoni/img/hei.jpg");
-	height: 500px;
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/IMG_4662.jpg");
+	height: 100vh;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	text-align: center;
 }
 
 .logo {
 	color: #fff;
-	font-family: 'Yesteryear', cursive;
-	font-size: 28px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
 
 nav{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
 	padding: 30px 30px;
+  	position: sticky;
+  	top: 0;
 }
 
 .nav-menu{
@@ -41,32 +46,51 @@ nav{
 	transition: all 0.3s ease-in-out;
 }
 .nav-menu li a:hover{
-	color: #cc7d14;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
+	background-color: #242424;
+}
+.nav-menu li a.active{
+	background-color: #ff2929;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
 }
 
 .header-title-1{
-	color: #ff9c19;
-	font-family: 'Yesteryear', cursive;
-	font-size: 30px;
-	margin-top: 100px;
-	margin-bottom: 25px;
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 5px;
+	font-size: 40px;
+	margin-top: 150px;
+	margin-bottom: 50px;
 }
 
 .header-title-2{
 	color: #fff;
-	font-family: 'Spartan', sans-serif;
-	text-transform: uppercase;
-	font-size: 30px;
-	letter-spacing: 10px;
-	margin-bottom:20px;
+	font-family: 'Kalam', cursive;
+	font-size: 20;
+	margin-bottom:5px;
+}
+
+.header-title-3{
+	color: #fff;
+	font-family: 'Kalam', cursive;
+	font-size: 20;
+	margin-bottom:25px;
 }
 
 .header-cta-button{
 	text-decoration:none;
 	font-family: 'Spartan', sans-serif;
 	text-transform: uppercase;
-	background-color: #ff9c19;
-	color: #fff;
+	background-color: #fff;
+	color: black;
 	padding: 10px;
 	border-radius: 5px;
 	font-size: 14px;
@@ -74,5 +98,185 @@ nav{
 }
 
 .header-cta-button:hover {
-	background-color: #cc7d14;
+	background-color: #242424;
+	color: white;
+}
+
+#int1{
+	width: 100%;
+	height: 100vh;
+	background-color: #dbdbdb;
+	text-align: center;
+	margin: auto;
+}
+
+#int2{
+	width: 100%;
+	height: 100vh;
+	background-color: #3ea6f0;
+	background-image: url("../img/undraw_feeling_proud_qne1(1).svg");
+	background-size: 15%;
+	background-position:bottom;
+	background-repeat: no-repeat;
+}
+
+#int3{
+	width: 100%;
+	height: 100vh;
+	background-color: #c6ffa6;
+	margin: auto;
+}
+
+
+.ava{
+	width: 15%;
+	border-radius: 50%;
+	box-shadow: 5px 10px 5px grey;
+}
+
+.intro{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	padding-top: 150px;
+}
+
+.intro2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.intro3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.bar-btn{
+	position: absolute;
+	top: 135vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.bar-btn2{
+	position: absolute;
+	top: 235vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.bar-btn3{
+	position: absolute;
+	top: 335vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.bar-btn a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	margin: 2px;
+	padding: 15px;
+	font-size: 18px;
+	background-color: #fff;
+	color: black;
+	text-align: right;
+	box-shadow: 2px 5px 5px grey;
+	border-radius: 0px 20px 20px 0px;
+	transform: translate(-200px,0px);
+	transition: all 0.5s ease-in-out;
+}
+
+
+.bar-btn2 a,.bar-btn3 a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	margin: 2px;
+	padding: 15px;
+	font-size: 18px;
+	background-color: #fff;
+	color: black;
+	text-align: right;
+	box-shadow: 2px 5px 5px black;
+	border-radius: 0px 20px 20px 0px;
+	transform: translate(-200px,0px);
+	transition: all 0.5s ease-in-out;
+}
+.bar-btn2 a.on,.bar-btn3 a.on{
+	background-color: #ffb73b;
+	color: 	#fff;
+}
+
+.bar-btn a:hover,.bar-btn2 a:hover,.bar-btn3 a:hover{
+	transform: translate(-5px,0px);
+}
+
+.bar-btn a i,.bar-btn2 a i,.bar-btn3 a i{
+	margin-left: 20px;
+}
+
+.konten{
+	padding: 50px 220px 0px 220px ;
+}
+
+
+.konten h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.konten .konten1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 	14px;
+	background-color: #fff;
+	margin-right: 500px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: -10px;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+.konten .konten2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 	14px;
+	text-align: right;
+	background-color: #fff;
+	margin-left: 500px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 	5px;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+
+.konten .konten3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 	25px;
+	margin-right: 	200px;
+	margin-left: 	200px;
+	margin-bottom: 	0;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 	5px;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+
+.ktn1 img{
+	width: 	100px;
+}
+
+.ktn1{
+	padding-top: 100px;
 }
