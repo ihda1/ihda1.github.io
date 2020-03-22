@@ -126,6 +126,13 @@ nav{
 	background-color: #c6ffa6;
 	margin: auto;
 }
+#int4{
+	width: 100%;
+	height: 100vh;
+	background-color: #ff6363;
+	margin: auto;
+	text-align: center;
+}
 
 
 .ava{
@@ -180,6 +187,14 @@ html{
 	flex-direction: column;
 }
 
+.bar-btn4{
+	position: absolute;
+	top: 435vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
 .bar-btn a {
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
@@ -197,7 +212,7 @@ html{
 }
 
 
-.bar-btn2 a,.bar-btn3 a {
+.bar-btn2 a,.bar-btn3 a,.bar-btn4 a{
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
@@ -212,16 +227,16 @@ html{
 	transform: translate(-200px,0px);
 	transition: all 0.5s ease-in-out;
 }
-.bar-btn2 a.on,.bar-btn3 a.on{
+.bar-btn2 a.on,.bar-btn3 a.on,.bar-btn4 a.on{
 	background-color: #ffb73b;
 	color: 	#fff;
 }
 
-.bar-btn a:hover,.bar-btn2 a:hover,.bar-btn3 a:hover{
+.bar-btn a:hover,.bar-btn2 a:hover,.bar-btn3 a:hover,.bar-btn4 a:hover{
 	transform: translate(-5px,0px);
 }
 
-.bar-btn a i,.bar-btn2 a i,.bar-btn3 a i{
+.bar-btn a i,.bar-btn2 a i,.bar-btn3 a i,.bar-btn4 a i{
 	margin-left: 20px;
 }
 
@@ -271,14 +286,6 @@ html{
 	border-radius: 10px;
 	margin-bottom: 	5px;
 	box-shadow: 8px 5px 2px #6b6b6b;
-}
-
-.ktn1 img{
-	width: 	100px;
-}
-
-.ktn1{
-	padding-top: 100px;
 }
 
 .ktn1 img{
