@@ -280,3 +280,53 @@ html{
 .ktn1{
 	padding-top: 100px;
 }
+
+.ktn1 img{
+	width: 	80px;
+}
+
+.tes{
+	padding-top: 50px;
+}
+
+.tes2{
+	padding-top: 10px;
+}
+.container .ktn1{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+
+.pad{
+	padding-top: 50px;
+}
+
+.ktn5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 	30px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-right: 100px;
+	margin-left: 100px;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.container .carousel {
+  width:640px;
+  margin: auto;
+}
+
+.carousel h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+	text-shadow: 8px 5px 2px black;
+}
+
+.carousel p{
+	font-size: 14px;
+	text-shadow: 2px 3px 0px black;
+}
