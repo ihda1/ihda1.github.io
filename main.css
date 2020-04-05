@@ -193,6 +193,7 @@ html{
 	left: 0;
 	display: flex;
 	flex-direction: column;
+	z-index: 1;
 }
 
 .bar-btn a {
@@ -258,7 +259,7 @@ html{
 	margin-right: 500px;
 	padding: 10px;
 	border-radius: 10px;
-	margin-bottom: -10px;
+	margin-bottom: 5px;
 	box-shadow: 8px 5px 2px #6b6b6b;
 }
 .konten .konten2{
@@ -286,6 +287,28 @@ html{
 	border-radius: 10px;
 	margin-bottom: 	5px;
 	box-shadow: 8px 5px 2px #6b6b6b;
+}
+
+#int2 .icon{
+	position: absolute;
+	top: 210vh;
+	left: 5vh;
+}
+
+.icon img{
+	width: 150px;
+}
+
+.int-ktn2{
+	margin-top: -50px;
+}
+.int-ktn3{
+	margin-top: -30px;
+}
+
+.konten2 img{
+	margin-right: 5px;
+	width: 30px;
 }
 
 .ktn1 img{
@@ -337,3 +360,4 @@ html{
 	font-size: 14px;
 	text-shadow: 2px 3px 0px black;
 }
+
