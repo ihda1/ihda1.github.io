@@ -1,0 +1,363 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://ihda1.github.io/Helloworldoni/img/IMG_4662.JPG");
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.logo {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 30px 30px;
+  	position: sticky;
+  	top: 0;
+}
+
+.nav-menu{
+	list-style: none;
+}
+
+.nav-menu li {
+	display: inline-block;
+	font-size: 16px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.nav-menu li a{
+	text-decoration: none;
+	color: #fff;
+	padding-right: 10px;
+	padding-left: 10px;
+	transition: all 0.3s ease-in-out;
+}
+.nav-menu li a:hover{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
+	background-color: #242424;
+}
+.nav-menu li a.active{
+	background-color: #ff2929;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 4px;
+}
+
+.header-title-1{
+	color: #fff;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 5px;
+	font-size: 40px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.header-title-2{
+	color: #fff;
+	font-family: 'Kalam', cursive;
+	font-size: 20;
+	margin-bottom:5px;
+}
+
+.header-title-3{
+	color: #fff;
+	font-family: 'Kalam', cursive;
+	font-size: 20;
+	margin-bottom:25px;
+}
+
+.header-cta-button{
+	text-decoration:none;
+	font-family: 'Spartan', sans-serif;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 14px;
+	transition: all 0.3s ease-in-out;
+}
+
+.header-cta-button:hover {
+	background-color: #242424;
+	color: white;
+}
+
+#int1{
+	width: 100%;
+	height: 100vh;
+	background-color: #dbdbdb;
+	text-align: center;
+	margin: auto;
+}
+
+#int2{
+	width: 100%;
+	height: 100vh;
+	background-color: #3ea6f0;
+	background-image: url("https://ihda1.github.io/Helloworldoni/img/undraw_feeling_proud_qne1(1).svg");
+	background-size: 15%;
+	background-position:bottom;
+	background-repeat: no-repeat;
+}
+
+#int3{
+	width: 100%;
+	height: 100vh;
+	background-color: #c6ffa6;
+	margin: auto;
+}
+#int4{
+	width: 100%;
+	height: 100vh;
+	background-color: #ff6363;
+	margin: auto;
+	text-align: center;
+}
+
+
+.ava{
+	width: 15%;
+	border-radius: 50%;
+	box-shadow: 5px 10px 5px grey;
+}
+
+.intro{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	padding-top: 150px;
+}
+
+.intro2{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+.intro3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.bar-btn{
+	position: absolute;
+	top: 135vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.bar-btn2{
+	position: absolute;
+	top: 235vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.bar-btn3{
+	position: absolute;
+	top: 335vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.bar-btn4{
+	position: absolute;
+	top: 435vh;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+}
+
+.bar-btn a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	margin: 2px;
+	padding: 15px;
+	font-size: 18px;
+	background-color: #fff;
+	color: black;
+	text-align: right;
+	box-shadow: 2px 5px 5px grey;
+	border-radius: 0px 20px 20px 0px;
+	transform: translate(-200px,0px);
+	transition: all 0.5s ease-in-out;
+}
+
+
+.bar-btn2 a,.bar-btn3 a,.bar-btn4 a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	margin: 2px;
+	padding: 15px;
+	font-size: 18px;
+	background-color: #fff;
+	color: black;
+	text-align: right;
+	box-shadow: 2px 5px 5px black;
+	border-radius: 0px 20px 20px 0px;
+	transform: translate(-200px,0px);
+	transition: all 0.5s ease-in-out;
+}
+.bar-btn2 a.on,.bar-btn3 a.on,.bar-btn4 a.on{
+	background-color: #ffb73b;
+	color: 	#fff;
+}
+
+.bar-btn a:hover,.bar-btn2 a:hover,.bar-btn3 a:hover,.bar-btn4 a:hover{
+	transform: translate(-5px,0px);
+}
+
+.bar-btn a i,.bar-btn2 a i,.bar-btn3 a i,.bar-btn4 a i{
+	margin-left: 20px;
+}
+
+.konten{
+	padding: 50px 220px 0px 220px ;
+}
+
+
+.konten h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.konten .konten1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 	14px;
+	background-color: #fff;
+	margin-right: 500px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+.konten .konten2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 	14px;
+	text-align: right;
+	background-color: #fff;
+	margin-left: 500px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 	5px;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+
+.konten .konten3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	text-align: center;
+	background-color: #fff;
+	margin-top: 	25px;
+	margin-right: 	200px;
+	margin-left: 	200px;
+	margin-bottom: 	0;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 	5px;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+
+#int2 .icon{
+	position: absolute;
+	top: 210vh;
+	left: 5vh;
+}
+
+.icon img{
+	width: 150px;
+}
+
+.int-ktn2{
+	margin-top: -50px;
+}
+.int-ktn3{
+	margin-top: -30px;
+}
+
+.konten2 img{
+	margin-right: 5px;
+	width: 30px;
+}
+
+.ktn1 img{
+	width: 	80px;
+}
+
+.tes{
+	padding-top: 50px;
+}
+
+.tes2{
+	padding-top: 10px;
+}
+.container .ktn1{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 8px 5px 2px #6b6b6b;
+}
+
+.pad{
+	padding-top: 50px;
+}
+
+.ktn5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 	30px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-right: 100px;
+	margin-left: 100px;
+	border-radius: 20px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.container .carousel {
+  width:640px;
+  margin: auto;
+}
+
+.carousel h5{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+	text-shadow: 8px 5px 2px black;
+}
+
+.carousel p{
+	font-size: 14px;
+	text-shadow: 2px 3px 0px black;
+}
+
